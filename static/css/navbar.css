@@ -1,0 +1,65 @@
+.navbar {
+	z-index: 100000;
+  	opacity: 0;
+	width: 100%;
+	transition: all 1s ease;
+	margin: 0;
+	padding: 0;
+	height: 3em;
+}
+
+.nav-item > a{
+	color: white !important;
+	
+}
+
+.nav-item a img{
+	height: inherit;
+}
+.nav-item a{
+	font-size: 0.75em;
+	font-weight: 600;
+	transition: color 0.2s ease;
+	border-radius: 2px;
+}
+
+.nav-item > a:hover{
+	color:black !important;
+	background-color: white;
+}
+.nav-item{
+	padding: 2px 25px !important;
+}
+
+#mynavbar ul{
+	margin: auto;
+	text-transform: uppercase;
+}
+.dropdown-menu a{
+	transition: all 0.1s ease;
+}
+
+.dropdown-menu a:hover{
+	background-color: #3e484f;
+	color:white;
+}
+
+@media only screen and (min-width: 900px) {
+
+  .navbar{
+    background-color: rgba(0, 51, 98, 0.2) !important;
+  }
+
+}
+
+/*mobile devices*/
+@media only screen and (max-width: 900px) { 
+	.navbar{
+    background-color: rgba(0, 51, 98, 0.2) !important;
+  }
+  .nav-item {
+	background-color: rgba(0, 51, 98, 0.7) !important;
+	
+}
+}
+

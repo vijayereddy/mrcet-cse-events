@@ -1,0 +1,594 @@
+/*!
+* Start Bootstrap - Resume v5.0.5 (https://startbootstrap.com/template-overviews/resume)
+* Copyright 2013-2019 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 54px;
+    color: white;
+
+    background-image: url("../img/flicker.jpg");
+    /*background: red;*/
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-size: contain;
+    /*background-position-y: top;*/
+    background-size: 100% 100%;
+    /*background-position: 50% auto;*/
+}
+
+@media only screen and (max-width: 992px){
+    body {
+
+        background-image: url("../img/flicker.jpg");
+        background-color: black;
+        background-position-x: center;
+        background-size: contain;
+        background-position-y: top;
+        background-size: auto 15%;
+        /*background-size: auto;*/
+        /*width: 1080px;*/
+        /*background-position: center;*/
+        /*overflow: hidden;*/
+        /*width: 100%;*/
+        /*-webkit-background-size: cover;*/
+        /*-moz-background-size: cover;*/
+        /*-o-background-size: cover;*/
+
+    }
+}
+div {
+    width: 320px;
+    /*padding: 10px;*/
+    margin: 0;
+}
+
+a:hover{
+    color:white;
+    opacity: 1;
+}
+
+}
+
+@media (min-width:992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem
+    }
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';*/
+    font-weight: 700;
+    /*text-transform: uppercase;*/
+    color: #343a40
+}
+@media (min-width:992px) {
+    h1 {
+        margin-right: 600%;
+        /*font-size: 600%;*/
+        line-height: 5.5rem;
+        opacity: 100%;
+        color: white;
+        /*text-decoration: underline;*/
+
+    }
+
+    h2 {
+        opacity: 100%;
+        color: white;
+        /*text-decoration: underline;*/
+    }
+
+    h2 {
+        /*font-size: 100%;*/
+        margin-right: 6%;
+    }
+
+    h3 {
+        /*font-size: 200%;*/
+        opacity: 100%;
+        color: white;
+    }
+    .element::-webkit-scrollbar { width: 0 !important }
+
+    .ambassador_heading {
+        font-size: 55px;
+        line-height: 64px;
+    }
+
+    .program2 {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    h1 {
+        /*font-size: 600%;*/
+        /*line-height: 5.5rem*/
+        opacity: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    h2 {
+        /*font-size: 600%;*/
+        opacity: 100%;
+        color: white;
+        /*text-align: center;*/
+        /*text-decoration: underline;*/
+    }
+
+    h2 {
+        /*font-size: 350%;*/
+        text-align: center;
+    }
+
+    h3 {
+        /*font-size: 200%;*/
+        opacity: 100%;
+        color: white;
+        text-align: center;
+    }
+}
+
+/*@media (min-width:992px) {*/
+/*    !*p.lead {*!*/
+/*    !*    !*font-size: 115%;*!*!*/
+/*    !*    font-weight: 400*!*/
+/*    !*    opacity: 100%;*!*/
+/*    !*    color: white;*!*/
+/*    !*    margin-top: 50px;*!*/
+/*    !*    margin-right: 13rem;*!*/
+/*    !*    margin-left: 20rem;*!*/
+/*    !*}*!*/
+
+/*    p.aboutCA{*/
+/*        !*font-size: 111%;*!*/
+/*        font-weight: 400 opacity: 100%;*/
+/*        color: white;*/
+/*        margin-top: 4.3%;*/
+/*        margin-right: 10%;*/
+/*        margin-left: 65%;*/
+/*        max-width: 300px;*/
+/*    }*/
+
+/*    p.lead_ab {*/
+/*        !*font-size: 115%;*!*/
+/*        font-weight: 400*/
+/*        opacity: 100%;*/
+/*        color: white;*/
+/*        margin-top: 4.3%;*/
+/*        margin-right: 6%;*/
+/*        margin-left: 38%;*/
+/*        max-width: 49%;*/
+/*    }*/
+
+/*    p.lead_res {*/
+/*        !*font-size: 115%;*!*/
+/*        font-weight: 400*/
+/*        opacity: 100%;*/
+/*        color: white;*/
+/*        margin-top: 50px;*/
+/*        margin-right: 13rem;*/
+/*        margin-left: 75%;*/
+/*        max-width: 25%;*/
+/*    }*/
+
+/*    p {*/
+/*        !*font-size: 100%;*!*/
+/*        opacity: 100%;*/
+/*        color: white;*/
+/*    }*/
+/*    !*p.faq1{*!*/
+/*    !*    font-size: 100%;*!*/
+/*    !*    margin-right:55%;*!*/
+/*    !*    margin-left:10%;*!*/
+/*    !*}*!*/
+/*    !*p.faq2{*!*/
+/*    !*    font-size: 100%;*!*/
+/*    !*    margin-left:55%;*!*/
+/*    !*    margin-right:10%;*!*/
+/*    !*    margin-top: -20%;*!*/
+/*    !*}*!*/
+/*}*/
+
+/*@media (min-width:1000px) and (max-width: 1200px) {*/
+/*    !*p.faq2{*!*/
+/*    !*    font-size: 100%;*!*/
+/*    !*    margin-left:55%;*!*/
+/*    !*    margin-right:10%;*!*/
+/*    !*    margin-top: -55%;*!*/
+/*    !*}*!*/
+/*}*/
+/*@media (min-width:1255px) and (max-width: 1500px) {*/
+/*    p.faq2{*/
+/*        font-size: 100%;*/
+/*        margin-left:55%;*/
+/*        margin-right:10%;*/
+/*        margin-top: -38%;*/
+/*    }*/
+/*}*/
+/*@media (min-width:1500px) and (max-width: 1700px) {*/
+/*    p.faq2{*/
+/*        !*font-size: 100%;*!*/
+/*        margin-left:55%;*/
+/*        margin-right:10%;*/
+/*        margin-top: -24%;*/
+/*    }*/
+/*}*/
+
+.bigtext {
+    width: 101.5%;
+}
+
+@media screen and (max-width: 992px) {
+
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    div.col-12{
+        /*text-align: justify!important;*/
+        width: 100%;
+        margin-right: 0;
+
+    }
+
+
+    .display-4{
+        font-size: 250  %;
+    }
+    .ambassador_heading {
+        font-size: 46px;
+    }
+
+    div.aboutCA{
+        text-align: right!important;
+    }
+    .bigtext {
+        width: auto;
+    }
+
+    .program2 {
+        /*padding: 6px;*/
+        /*padding-right: 0px;*/
+        /*margin-left: 41px;*/
+    }
+}
+
+
+
+/*@media screen and (max-width: 992px) {*/
+/*    p.lead,div.aboutCA, p.lead_res {*/
+/*        !*font-size: 115%;*!*/
+/*        font-weight: 400;*/
+/*        opacity: 100%;*/
+/*        text-align: center;*/
+/*        color: white;*/
+/*        margin-top: 50px;*/
+/*        !*margin-right: 0rem;*!*/
+/*        margin-left: 0rem;*/
+/*    }*/
+
+/*    p.lead_ab {*/
+/*        !*font-size: 115%;*!*/
+/*        font-weight: 400;*/
+/*        opacity: 100%;*/
+/*        text-align: center;*/
+/*        color: white;*/
+/*        margin-top: 50px;*/
+/*        !*margin-right: 0rem;*!*/
+/*        margin-left: -1.5%;*/
+/*    }*/
+
+/*    p.lead_bec_CA {*/
+/*        !*font-size: 115%;*!*/
+/*        font-weight: 400;*/
+/*        opacity: 100%;*/
+/*        text-align: center;*/
+/*        color: white;*/
+/*        margin-top: 50px;*/
+/*        !*margin-right: 0rem;*!*/
+/*        margin-left: 0rem;*/
+/*    }*/
+
+/*    p {*/
+/*        !*font-size: 500%;*!*/
+/*        opacity: 100%;*/
+/*        color: white;*/
+/*        text-align: left;*/
+/*    }*/
+
+/*    !*p.faq1{*!*/
+/*    !*    !*font-size: 100%;*!*!*/
+/*    !*}*!*/
+/*    !*p.faq2{*!*/
+/*    !*    !*font-size: 100%;*!*!*/
+/*    !*}*!*/
+/*}*/
+
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    /*font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';*/
+    font-size: 150%;
+}
+
+/*.social-icons a {*/
+/*display: inline-block;*/
+/*height: 3.5rem;*/
+/*width: 3.5rem;*/
+/*background-color: #495057;*/
+/*color: #fff!important;*/
+/*border-radius: 100%;*/
+/*text-align: center;*/
+/*font-size: 1.5rem;*/
+/*line-height: 3.5rem;*/
+/*margin-right: 1rem*/
+/*}*/
+
+/*.social-icons a:last-child {*/
+/*margin-right: 0*/
+/*}*/
+
+/*.social-icons a:hover {*/
+/*background-color: #bd5d38*/
+/*}*/
+
+.dev-icons {
+    font-size: 300%;
+}
+
+.dev-icons .list-inline-item i:hover {
+    color: #bd5d38
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 900;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#sideNav .navbar-toggler:focus {
+    outline-color: #d48a6e
+}
+
+.become-ca .row>*{
+    padding: 0px;
+}
+
+@media (min-width:992px) {
+    #sideNav {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 20%;
+        height: 100vh;
+    }
+    #sideNav .navbar-brand {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: auto auto 0;
+        /*padding-top: 5%;*/
+        height: 58%;
+    }
+    #sideNav .navbar-brand .img-profile {
+        max-width: 100%;
+        max-height: 100%;
+        /*border: 0.1px solid rgba(255, 255, 255, .2);*/
+        /*margin-top: -20%;*/
+        /*position: top;*/
+        /*margin-bottom: 80%;*/
+        /*position: fixed;*/
+    }
+    #sideNav .navbar-collapse {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+        display: block
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block
+    }
+}
+
+/*section.resume-section {*/
+/*    padding-top: 3.5%!important;*/
+/*    padding-bottom: 5rem!important;*/
+/*    max-width: 75rem*/
+/*}*/
+
+section.resume-section .resume-item .resume-date {
+    min-width: none
+}
+
+@media (min-width:768px) {
+    section.resume-section {
+        min-height: 100vh;
+        min-width: 100%;
+    }
+    /*section.resume-section .resume-item .resume-date {*/
+    /*    min-width: 18rem*/
+    /*    min-width: 100%:*/
+    /*}*/
+}
+.bg-primary {
+    background-color: rgba(0, 0, 0, 1)!important
+}
+@media (min-width:992px) {
+    section.resume-section {
+        padding-top: 3.5%!important;
+        padding-bottom: 3.5%!important;
+    }
+    .bg-primary {
+        background-color: rgba(0, 0, 0, 0.2)!important
+    }
+
+    .caheading {
+        margin-right: 0%;
+    }
+
+}
+
+
+
+
+.text-primary {
+    color: #bd5d38
+}
+
+a {
+    color: #bd5d38
+}
+
+
+a:active,
+a:focus,
+a:hover {
+    color: #824027
+}
+
+.become-ca .row>*{
+    padding: 0px;
+}
+.heading12ca {
+    font-size: 3.4rem;
+}
+.heading123 {
+    text-align: right;
+    font-size: 275%;
+    font-weight: 550;
+    line-height: 71px;
+    padding-right: 3%;
+}
+.underline {
+    margin-top: -50px;
+    text-align: right;
+    padding-right: 10px;"
+}
+
+.subrow123 {
+    margin-bottom: -17px;
+}
+.shiftleft {
+    padding-right: 3%;
+}
+
+@media  { max-width 992px) {
+    .formobile {
+        font-size: 20px;
+    }
+}
+
+body{
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-size: cover;*/
+    /*background-position: 50% 50%;*/
+    /*background-color: black;*/
+}
+
+@media only screen and (max-width: 992px){
+    /*body {*/
+    /*    background-repeat: no-repeat;*/
+    /*    background-attachment: fixed;*/
+    /*    background-size: cover;*/
+    /*    background-position: 50% ;*/
+    /*    background-color: black;*/
+    /*}*/
+    .program2 {
+        font-size: 37px;
+    }
+
+    .heading123 {
+        text-align: right;
+        font-size: 225%;
+        font-weight: 550;
+        line-height: 71px;
+        padding-right: 3%;
+    }
+}
+div {
+    width: 320px;
+    padding: 10px;
+    margin: 0;
+}
+
+a:hover{
+    color:white;
+    opacity: 1;
+}
+
+hr {
+    text-align: right;
+    border: 0;
+    margin-right: 0;
+    margin-left: auto;
+    display:block;
+    background-color: #ffffff;
+    height: 1px;
+    margin-top: -2px;
+}
+
+
+hr.mobile {
+    width: 10vw;
+    margin-right: 0;
+
+}
+
+*::-webkit-scrollbar {
+    width: 1em;
+}
+
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+li:hover {
+    cursor: pointer;
+}

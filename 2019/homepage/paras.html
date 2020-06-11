@@ -1,0 +1,472 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from techfest.org/2019/homepage/paras.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Feb 2020 15:35:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Techfest</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../../maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="../ca/images/favicon_logo.png" />
+
+    <script type="text/javascript" src="../../../code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Muli&amp;display=swap" rel="stylesheet">
+    <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81222017-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-81222017-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <style>
+        body{
+            font-family: 'Muli', sans-serif;
+            background-color: #275E80; /* For browsers that do not support gradients */
+            background-image: linear-gradient(to right, #275E80 , #2C2F7A);
+        }
+
+        .wrapper {
+            height: 100% !important;
+            height: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+
+
+
+    </style>
+    <script>
+        $(document).ready(function(){
+            $(".main").onepage_scroll({
+                sectionContainer: "section",
+                responsiveFallback: 600,
+                loop: false
+            });
+        });
+
+    </script>
+    <style>
+        .box{
+            position:fixed;
+            z-index: 20;
+
+        }
+        .links {
+            font-size: 2.5vh;
+            color: white;
+            letter-spacing: 1px;
+        }
+
+        .topright{
+            top:0px;
+            right:0px;
+            width: 33%;
+            text-align: right;
+            padding-right: 2%;
+        }
+        .topright_links {
+            padding-top: 2.5%;
+        }
+        .topleft{
+            top:0px;
+            left:0px;
+            width: 33%;
+            text-align: left;
+            padding-left: 2%;
+        }
+        .topleft_links{
+            padding-top: 2.5%;
+        }
+        .bottomright{
+            bottom: -2.1vh;
+            right:0px;
+            height: 11%;
+            width: 26%;
+        }
+        .bottomleft{
+            bottom: -2.1vh;
+            left:0px;
+            height: 10%;
+            width: 30%;
+            padding-left: 2%;
+
+        }
+        .bottomleft_link{
+            text-align: left;
+        }
+        .bottomcentre{
+            left: calc(50% - 30vh);
+            bottom:5px;
+            width: 60vh;
+            color: white;
+        }
+        .topcentre{
+            top: 0.7%;
+            left: 43%;
+            max-width: 14%;
+            max-height: 50px;
+
+        }
+        .logo {
+            max-width: 100%;
+
+        }
+
+
+        .header {
+            width: 100%;
+            position: fixed;
+            z-index: 8;
+        }
+        .footer_left {
+            bottom: -5.1vh;
+            width: 32vw;
+            position: fixed;
+            z-index: 8;
+        }
+        .footer_right {
+            transform: rotateY(180deg);
+            right: 0;
+            bottom: -5.1vh;
+            width: 32vw;
+            position: fixed;
+            z-index: 8;
+        }
+        .footer_center {
+            left: 34.7vw;
+            bottom: 0px;
+            width: 32vw;
+            position: fixed;
+            z-index: 8;
+        }
+        i {
+            padding: 5px;
+            size: 27px;
+        }
+
+    </style>
+    <style>
+        @-webkit-keyframes rotate {
+
+            to {
+                -webkit-transform: rotateZ(359deg);
+            }
+        }
+        .background {
+            position: absolute;
+            width: 100vw;
+            height: -webkit-fill-available;
+
+        }
+        .background_layer {
+            position: absolute;
+            width: 100vw;
+            top: calc(50vh - 50vw);
+            /*transform: scale(0.9);*/
+            opacity: 0.2;
+            animation: rotate reverse 180s infinite linear;
+
+        }
+        .mandala{
+            left: 31.5vw;
+            width: 37vw;
+            position: absolute;
+            margin: auto;
+            top: calc(50vh - 18.5vw);
+
+            animation: rotate 60s infinite linear;
+
+        }
+        #page1:hover #mandala_1 {
+            animation: axis_1 4s;
+            animation-iteration-count: 3;
+        }
+
+        @keyframes axis_1 {
+            to {
+                transform: rotateX(180deg) ;
+            }
+        }
+         #page1:hover #mandala_2 {
+                    animation: axis_2 4s;
+                    animation-iteration-count: 3;
+                }
+
+        @keyframes axis_2 {
+            to {
+                transform: rotateY(180deg);
+            }
+        }
+        #page1:hover #mandala_3 {
+            animation: axis_3 4s;
+            animation-iteration-count: 3;
+        }
+
+        @keyframes axis_3 {
+            to {
+                transform: rotateY(180deg) rotateX(180deg);
+            }
+        }
+        #page1:hover #mandala_4 {
+            animation: axis_4 4s;
+            animation-iteration-count: 3;
+        }
+
+        @keyframes axis_4 {
+            to {
+                transform: rotateY(180deg) rotateX(-180deg);
+            }
+        }
+        #page1:hover #mandala_6 {
+            animation: speed 4s;
+            animation-play-state: inherit;
+
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes speed {
+            to {
+                transform: rotatez(360deg);
+            }
+        }
+
+
+        .black_blurr {
+            transform: scale(1.8);
+        }
+        .left_eye {
+            position: absolute;
+            top: calc(50vh - 19.2vw);
+            width: 30vw;
+            left: 9.9vw;
+            -webkit-user-drag: none;
+        }
+        .right_eye {
+            position: absolute;
+            top: calc(50vh - 19.2vw);
+            width: 30vw;
+            right: 9.9vw;
+            -webkit-user-drag: none;
+
+        }
+
+        #page1:hover #right_eye {
+            animation: bounce_right 2s;
+            animation-iteration-count: infinite;
+        }
+
+        #page1:hover #left_eye {
+            animation: bounce_left 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes bounce_right {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            20% {transform: translateX(30px);}
+            50% {transform: translateX(20px);}
+        }
+        @keyframes bounce_left {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            20% {transform: translateX(-30px);}
+            50% {transform: translateX(-20px);}
+        }
+    </style>
+    <style>
+        .guine_box{
+            padding-top: 13.1vh;
+            padding-bottom: 15.2vh;
+            text-align: right;
+
+        }
+        a:hover {
+            text-shadow: #ffffff 0px 0px 4px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+<script>
+    (function($){
+        $(document).on('contextmenu', 'img', function() {
+            return false;
+        })
+    })(jQuery);
+</script>
+
+<img class="header" src="images/Header.png" alt="" >
+<img class="footer_left" src="images/Footer_Side.png" alt="" >
+<img class="footer_right" src="images/Footer_Side.png" alt="" >
+<img class="footer_center" src="images/Footer_middle.png" alt="" >
+<!--<img class="background" src="https://techfest.org/2019/homepage/images/Background_3.png" alt="" >-->
+<img class="background_layer" src="images/layer_9-min.png" alt="" >
+<div>
+
+    <div class="box topleft">
+        <div class="row">
+            <div class="col-md-3 topleft_links" id=Links">
+                <a class="links" href="theme.html" >Theme</a><br>
+                <a class="links" href="../../19/initiative.html">Initiatives</a><br>
+
+            </div>
+            <div class="col-md-3 topleft_links">
+                <a class="links" href="../lectures/index.html" >Lectures</a><br>
+                <a class="links" href="../exhi/index.html" >Exhibitions</a><br>
+            </div>
+            <div class="col-md-3 topleft_links">
+                <a class="links" href="../../19/summit.html" >Summit</a><br>
+                <a class="links" href="../../19/mun.html" >MUN</a><br>
+
+            </div>
+
+            <div class="col-md-3 topleft_links">
+                <a class="links" href="../../19/workshops.html" >Workshops</a><br>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="box topright">
+        <div class="row" >
+            <div class="col-md-2 topright_links" style="padding-right: 2.5%;">
+                <a class="links" href="../competitions/index.html" >Ideate</a><br>
+
+            </div>
+            <div class="col-md-4 topright_links" id="Links">
+                <a class="links" href="../competitions/index.html" >Competitions</a><br>
+                <a class="links" href="../../19/esports.html" >Esports</a><br>
+
+            </div>
+            <div class="col-md-3 topright_links" style="padding-left: 0px;">
+                <a class="links" href="../../19/ift/index.html" >Full-Throttle</a><br>
+                <a class="links" href="../lectures/index.html" >Robowars</a><br>
+
+            </div>
+            <div class="col-md-3 topright_links">
+                <a class="links" href="../lectures/index.html" >Technoholix</a><br>
+                <a class="links" href="../lectures/index.html" >Ozone</a><br>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="box bottomright">
+        <div class="row">
+            <div class="col-sm-12 " style="text-align: center; font-size: 3vh">
+                <a class="links " href="../lectures/index.html" >Contact Us</a><br>
+                <a style="color: white" href="https://www.facebook.com/iitbombaytechfest" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a style="color: white" href="https://www.instagram.com/techfest_iitbombay/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a style="color: white" href="https://twitter.com/Techfest_IITB" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a style="color: white" href="https://in.linkedin.com/company/techfest" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a style="color: white" href="https://in.pinterest.com/techfestiitbombay/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                <a style="color: white" href="https://www.youtube.com/user/techfestiitbombay" target="_blank"><i class="fab fa-youtube"></i></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="box bottomleft">
+        <div class="row ">
+            <div class="col-md-4 bottomleft_link">
+                <a class="links" href="../media/index.html" >Media</a><br>
+                <a class="links " href="../sponsors/index.html" >Sponsor</a><br>
+
+
+            </div>
+            <div class="col-md-4 bottomleft_link " style="">
+                <a class="links " href="../../19/hospitality.html" >Hospitality</a><br>
+                <a class="links " href="../legals/index.html" >Legals</a><br>
+
+            </div>
+            <div class="col-md-4 bottomleft_link" style="padding-left: 0px;">
+                <a class="links " href="../legals/aboutus.html" >About Us</a><br>
+
+
+            </div>
+
+        </div>
+    </div>
+    <div class="box bottomcentre" >
+
+    </div>
+    <div class="box topcentre" >
+        <img class="logo" src="logo_edit.png" alt="">
+    </div>
+</div>
+<div class="wrapper">
+    <div class="main">
+        <section class="page1" id="page1">
+            <img id="black_blurr" class="mandala black_blurr" src="images/Background_Blur-min.png" alt="" style="opacity: 0.5">
+                <img id="mandala_6" class="mandala mandala_6" src="images/mandala_6.png" >
+                <img id="mandala_5" class="mandala mandala_5" src="images/mandala_5.html" >
+                <img id="mandala_4" class="mandala mandala_4" src="images/mandala_4.html" >
+                <img id="mandala_3" class="mandala mandala_3" src="images/mandala_3.png" >
+                <img id="mandala_2" class="mandala mandala_2" src="images/mandala_2.html" >
+                <img id="mandala_1" class="mandala mandala_1" src="images/mandala_1.png" >
+
+                <img id="left_eye" class="left_eye" src="images/Eye_Left.png" alt="">
+                <img id="right_eye" class="right_eye" src="images/Eye_Right-min.png" alt="" >
+
+        </section>
+        <section class="page2">
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="guine_box" >
+                        <img class="guine zoom" src="images/gunness.html" alt="" style="    height: 71.7vh;">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="center_letter_box" style="padding-top: 13.6vh;padding-bottom: 23%;text-align: left;width: 16.4vw;">
+                        <img class=" zoom" src="images/letter-min.png" alt="" style="width: 100%;  margin: auto;" >
+                        <img class=" zoom" src="images/apj.html" alt="" style="width: 100%;padding-top: 4%;">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text_box"  style="    height: 100vh;padding-top: 12vh;padding-bottom: 16vh;padding-right: 9vw;padding-left: 3vw;text-align: justify;color: white;font-size: 2.7vh;">
+                        <div class="text zoom">
+                            <h1><b> 3<sup>rd</sup> - 5<sup>th</sup> January</b>, 2020</h1>
+                            <p style="font-size: 2vh;">
+                                Techfest, IIT Bombay is proud to present the official website of Techfest 2019-2020: Through Da Vinci’s Spectacles.
+                                <br>
+                                This website is the one-stop destination for all things to do with Techfest. Every detail of every aspect of Techfest can be found here not to mention the tons of bonus content too. So make sure to explore the site! Who knows what may catch your fancy?
+                                <br>
+                                Dream on!
+                                <br>
+                                ~ Team Techfest
+
+                            </p>
+                            <iframe style="height: 34vh; width: 37vw;"  src="https://www.youtube.com/embed/2z3CEBv8PLI?start=160;autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5 style="position: absolute;color: white;top: 79.1vh;;right: 1.2vw;"><i class="far fa-copyright"></i>TECHFEST, IIT BOMBAY</h5>
+
+        </section>
+    </div>
+</div>
+<a title="Dark Mode" href="dark.html"><i class="fas fa-moon" style="position: absolute; top: 50vh;opacity: 0" ></i></a>
+<a href="theme.html" title="Click Here to Explore Theme">
+    <button style="width: 7vw;
+    height: 7vw;
+    top: 43.8vh;
+    position: absolute;
+    left: 46.5vw;
+    border-radius: 50%;
+    opacity: 0;
+"></button>
+</a>
+
+
+</body>
+
+<!-- Mirrored from techfest.org/2019/homepage/paras.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Feb 2020 15:36:11 GMT -->
+</html>

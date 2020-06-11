@@ -1,0 +1,814 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Events | CSE,MRCET</title>
+    <!-- Site Properties -->
+    <meta name="description" content="">
+    <!-- Facebook open graph -->
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content="Fest Website, non profit organisation"/>
+    <meta property="og:image" content="../static/main/logonew.png"/>
+    <meta property="og:url" content="../index.html"/>
+    <meta property="og:description" content=""/>
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="" />
+    <!-- <meta name="twitter:site" content="@Technozion17" /> -->
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="../static/main/green-new.png" />
+     <link rel="icon" type="image/png" href="../static/images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="../static/main/semantic.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/site.css">
+
+  <link rel="stylesheet" type="text/css" href="../static/main/components/container.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/header.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/image.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/menu.css">
+
+  <link rel="stylesheet" type="text/css" href="../static/main/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/form.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/input.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/button.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/list.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/message.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/accordion.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/button.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/components/transition.css">
+  <link rel="stylesheet" type="text/css" href="../static/main/events.css">
+  <link rel="stylesheet" href="../../unpkg.com/aos%403.0.0-beta.6/dist/aos.css" />
+  <style type="text/css">
+  .ui.cards > .card.mix{
+  display: none;
+}
+.poster
+{
+  text-align: center;
+  font-size: 4vw;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.eventshead
+{
+  text-align: center;
+  margin-top: 3%;
+  font-size: 4vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.mrcet
+{
+  margin-top: 1.25%;
+  color: white;
+  margin-left: 1.25%;
+  font-size: 1.5vw;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<div id="mobile">
+    <div id="topMenu" class="ui inverted top menu visible sidebar" style="background: #202731;margin-top:0px;margin-bottom:0px;">
+      <div class="item" onclick="togglemenu()"><i class="sidebar icon"></i>Menu</div>
+          </div>
+    <div id="navbar" class="ui inverted top stackable menu sidebar" style="background: #202731;margin-top:0px;margin-bottom:0px;">
+      <div class="item" onclick="togglemenu()"><i class="arrow left icon"></i></div>
+      <a href="../index.html" class="item">
+        <img src="../static/images/">
+      </a>
+      </div>
+    </div>
+</div>
+
+<div id="desktop">
+    <div class="ui inverted fixed menu" style="background: #202731;margin-top:0px;margin-bottom:0px;padding-top:0px; padding-bottom:0px;">
+          <a href="#" class="item">
+            <img src="mrcet.jpeg">
+          </a>
+          <div class="mrcet">
+            MALLA REDDY COLLEGE OF ENGINEERING AND TECHNOLOGY&nbsp;(UGC-AUTONOMOUS,INDIA)
+          </div>
+          
+          </div>
+          <!-- a href="/register/" class="right floated item">Register</a -->
+     </div>
+</div>
+  
+<div id="container">
+    <div class="pusher" >
+      <div class="ui container" style="padding-top: 10px;">
+      
+          <div class="ui grid">
+          <div class="row">
+            <div class="four wide column">
+              
+            </div>
+            <div class="twelve wide column">
+                    <div class="ui fluid search">
+                       <div class="ui icon input" style="width: 100%;">
+                            </div>
+                      <div class="results"></div>
+                    </div>
+            </div>
+          </div>
+          <div class="centered row">
+            <div class="ui container">
+            <div class="ui center aligned grid">
+            <div class="row">
+              <div class="poster"><br>
+                MAIN POSTER
+              </div>
+              
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="eventshead">
+            <img src="poster.png"><br><br>
+            <br>EVENTS OF ESPIRITO 2020<br>
+          </div>
+          <br><br>
+        <div class="ui four stackable special cards" id="mixitup">
+<div class="filter mix card Others Spotlight 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/avion_e/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/avion-e/AVION-E_LOGO.jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/avion_e/index.html"><h3>AVION-E</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">Spotlight</a>
+        <a class="ui green tag label">Others</a>
+    
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Others Spotlight 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/jahaaz/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/jahaaz/jahaaz_FMK3po4_hZfoyQQ.jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/jahaaz/index.html"><h3>JAHAAZ</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">Spotlight</a>
+        <a class="ui green tag label">Others</a>
+    
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Others Spotlight 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/wreckage/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/wreckage/wrechage.jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/wreckage/index.html"><h3>WRECKAGE</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">Spotlight</a>
+        <a class="ui green tag label">Others</a>
+    
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Others Spotlight 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/hovermania/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/hovermania/hovermania-finaltrial.jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/hovermania/index.html"><h3>HOVERMANIA</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">Spotlight</a>
+        <a class="ui green tag label">Others</a>
+    
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Online Spotlight 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/national_programming_league/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/national_programming_league/14333633_1772263796373440_1389147667579427172_n.jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/national_programming_league/index.html"><h3>NATIONAL PROGRAMMING LEAGUE</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">Spotlight</a>
+        <a class="ui green tag label">Online</a>
+    
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Robotics Spotlight 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/national_robotics_championship/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/national_robotics_championship/nrc.jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/national_robotics_championship/index.html"><h3>NATIONAL ROBOTICS CHAMPIONSHIP</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">Spotlight</a>
+        <a class="ui green tag label">Robotics</a>
+    
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Others General 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/the_three_musketeers/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/the_three_musketeers/3musketeers..jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/the_three_musketeers/index.html"><h3>THE THREE MUSKETEERS</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">General</a>
+        <a class="ui green tag label">Others</a>
+    
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Others General 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/enigma/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/enigma/enigma_6StHtBr.jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/enigma/index.html"><h3>ENIGMA</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">General</a>
+        <a class="ui green tag label">Others</a>
+    
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Others General 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/techfresh/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/techfresh/techfresh_z5MPNjv.jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/techfresh/index.html"><h3>TECHFRESH</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">General</a>
+        <a class="ui green tag label">Others</a>
+    
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Presentation Presentation 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/paper_presentation/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/paper_presentation/ppt_A6DnhRB.jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/paper_presentation/index.html"><h3>PAPER PRESENTATION</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">Presentation</a>
+        
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Others Others 
+OtherDepartments">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/spend_it_like_beckham/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/spend_it_like_beckham/SILB.jpg">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/spend_it_like_beckham/index.html"><h3>Spend it like Beckham</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">Others</a>
+        
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<div class="filter mix card Others Others 
+MechanicalEngineering">
+
+
+<div class="blurring dimmable image">
+
+    <div class="ui dimmer">
+
+    <div class="content">
+        <a  href="../details/the_third_arm/index.html"><button class="ui button">
+View Event</button>
+        <div class="center">
+        </div>
+            </a>
+    </div>
+
+    </div>
+    <img class="ui medium image" src="../media/events/logo/the_third_arm/third_arm_2.png">
+</div>
+
+<center>
+<div class="content" style="margin-top:10px;line-height:50px;">
+    <a class="header" href="../details/the_third_arm/index.html"><h3>THE THIRD ARM</h3></a>
+    <div class="meta">
+    
+        <a class="ui teal tag label">Others</a>
+        
+    </div>
+</div>
+</center>
+</div>
+          
+          
+          
+            
+<
+          
+        
+        </div>
+    </div>
+</div>
+
+<!--<div class="ui grid row">
+<div class="ui inverted vertical footer fluid segment">
+    <div class="ui center aligned container">
+      <div class="ui stackable inverted divided grid">
+        <div class="three wide column">
+          <h4 class="ui inverted header">Group 1</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Link One</a>
+            <a href="#" class="item">Link Two</a>
+            <a href="#" class="item">Link Three</a>
+            <a href="#" class="item">Link Four</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header">Group 2</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Link One</a>
+            <a href="#" class="item">Link Two</a>
+            <a href="#" class="item">Link Three</a>
+            <a href="#" class="item">Link Four</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header">Group 3</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Link One</a>
+            <a href="#" class="item">Link Two</a>
+            <a href="#" class="item">Link Three</a>
+            <a href="#" class="item">Link Four</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header">Footer Header</h4>
+          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+        </div>
+      </div>
+      <div class="ui inverted section divider"></div>
+      <img src="assets/images/logo.png" class="ui centered mini image">
+      <div class="ui horizontal inverted small divided link list">
+        <a class="item" href="#">Site Map</a>
+        <a class="item" href="#">Contact Us</a>
+        <a class="item" href="#">Terms and Conditions</a>
+        <a class="item" href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</div>-->
+  <script src="../static/main/jquery-2.2.4.min.js"></script>
+  <script src="../static/main/semantic.js"></script>
+  <script src="../static/main/components/form.js"></script>
+  <script src="../static/main/components/transition.js"></script>
+  <script src="../static/main/components/dropdown.js"></script>
+   <script src="../static/main/components/accordion.js"></script>
+   <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67240643-1', 'auto');
+  ga('send', 'pageview');
+  $('.ui.dropdown')
+  .dropdown()
+;
+
+</script>
+
+<script>
+  if(window.screen.width<720)
+  {
+    $("#desktop").hide();
+    $("#mobile").show();
+  }
+  else
+  {
+    $("#mobile").hide();
+  }
+
+  function togglemenu()
+  {
+    $( "#navbar" ).sidebar('toggle');
+  }
+
+
+</script>
+
+   
+<script src="../static/main/components/jquery.mixitup.js"></script>
+
+<script>
+$('.special.cards .image').dimmer({
+  on: 'hover'
+});
+
+
+var content = [
+
+{title:"AVION-E", description:"Spotlight", url:" /details/avion_e"},
+
+{title:"JAHAAZ", description:"Spotlight", url:" /details/jahaaz"},
+
+{title:"WRECKAGE", description:"Spotlight", url:" /details/wreckage"},
+
+{title:"HOVERMANIA", description:"Spotlight", url:" /details/hovermania"},
+
+{title:"NATIONAL PROGRAMMING LEAGUE", description:"Spotlight", url:" /details/national_programming_league"},
+
+{title:"NATIONAL ROBOTICS CHAMPIONSHIP", description:"Spotlight", url:" /details/national_robotics_championship"},
+
+{title:"THE THREE MUSKETEERS", description:"General", url:" /details/the_three_musketeers"},
+
+{title:"ENIGMA", description:"General", url:" /details/enigma"},
+
+{title:"TECHFRESH", description:"General", url:" /details/techfresh"},
+
+{title:"PAPER PRESENTATION", description:"Presentation", url:" /details/paper_presentation"},
+
+{title:"Spend it like Beckham", description:"Others", url:" /details/spend_it_like_beckham"},
+
+{title:"THE THIRD ARM", description:"Others", url:" /details/the_third_arm"},
+
+{title:"InCELLigence", description:"Others", url:" /details/incelligence"},
+
+{title:"Construir", description:"Others", url:" /details/construir"},
+
+{title:"Kaun banega Crorepati", description:"Club", url:" /details/kaun_banega_crorepati"},
+
+{title:"CHEM-E-CAR", description:"Others", url:" /details/chem-e-car"},
+
+{title:"CHEM-E-TEMPORE", description:"Others", url:" /details/chem-e-tempore"},
+
+{title:"BUILDCON", description:"Others", url:" /details/buildcon"},
+
+{title:"Technoshots", description:"Online", url:" /details/technoshot"},
+
+{title:"Poster Presentation", description:"Presentation", url:" /details/poster_presentation"},
+
+{title:"CHEMI-VISION", description:"Others", url:" /details/chemi-vision"},
+
+{title:"ELECTRONOVA", description:"Others", url:" /details/electronova"},
+
+{title:"TZ-IMPACT (AASHAYAM)", description:"Club", url:" /details/tz-impact"},
+
+{title:"METTLE", description:"Others", url:" /details/mettle"},
+
+{title:"Thrust", description:"Others", url:" /details/thrust_2"},
+
+{title:"Mathematical Tambola", description:"Others", url:" /details/mathematical_tambola_2"},
+
+{title:"Amusing Math", description:"Others", url:" /details/amusing_math"},
+
+{title:"Shrinkage", description:"Others", url:" /details/shrinkage"},
+
+{title:"4 pi", description:"Others", url:" /details/cicada"},
+
+{title:"CODE DEBUGGING", description:"Others", url:" /details/code_debugging"},
+
+{title:"Death Note", description:"General", url:" /details/death_note"},
+
+{title:"MAD ADS", description:"General", url:" /details/mad_ads"},
+
+{title:"Brain O Coaster", description:"General", url:" /details/brain_o_coaster"},
+
+{title:"Bamboozled", description:"General", url:" /details/bamboozled"},
+
+{title:"JUNKYARD WARS", description:"Others", url:" /details/junkyard_wars"},
+
+{title:"Mind Over Matter", description:"Others", url:" /details/mind_over_matter"},
+
+{title:"WHAT IF?", description:"Club", url:" /details/what_if"},
+
+{title:"POTENTIA", description:"Others", url:" /details/potentia"},
+
+{title:"TechClix", description:"General", url:" /details/techclix"},
+
+{title:"ELECTRIFY", description:"Others", url:" /details/electrify"},
+
+{title:"$Biz", description:"Others", url:" /details/$biz"},
+
+{title:"Electro Mania", description:"Others", url:" /details/electro_mania"},
+
+{title:"MATTERSCAPE", description:"Others", url:" /details/matterscape"},
+
+{title:"Electrabuzz", description:"Others", url:" /details/electrabuzz"},
+
+{title:"Predict2Win", description:"Others", url:" /details/predict2win"},
+
+]
+$('.ui.search')
+  .search({
+    source: content,
+     searchFields   : ['title', 'description'],
+     searchFullText: true
+  });
+
+$(document).ready(function(){
+  $('#mixitup').mixItUp();
+});
+
+function onclick_filter () {
+  $('#mainsidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle');
+}
+
+function opendepartment(){
+  $('#departmentsidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle');
+}
+
+function mainsidebar(){
+  $('#departmentsidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle');
+}
+
+$('.mix.card').mouseenter(function(){
+  $(this).transition({
+    animation : 'pulse',
+    reverse   : 'auto',
+    interval  : 200
+  })
+;
+});
+
+if(window.screen.width<720){
+    container = document.getElementById('container');
+    container.style.padding = "10% 0px"
+}
+else{
+    container = document.getElementById('container');
+    container.style.padding = "52px 0px"
+}
+</script>
+
+
+</body>

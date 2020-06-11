@@ -1,0 +1,312 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.html" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--=============================================/2019/exhi/form/==================================================-->
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--=============================================/2019/exhi/form/==================================================-->
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/vendor/animate/animate.css">
+    <!--=============================================/2019/exhi/form/==================================================-->
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/vendor/css-hamburgers/hamburgers.min.css">
+    <!--=============================================/2019/exhi/form/==================================================-->
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/vendor/animsition/css/animsition.min.css">
+    <!--=============================================/2019/exhi/form/==================================================-->
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/vendor/select2/select2.min.css">
+    <!--=============================================/2019/exhi/form/==================================================-->
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/vendor/daterangepicker/daterangepicker.css">
+    <!--=============================================/2019/exhi/form/==================================================-->
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/vendor/noui/nouislider.min.css">
+    <!--=============================================/2019/exhi/form/==================================================-->
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/css/util.css">
+    <link rel="stylesheet" type="text/css" href="../2019/exhi/form/css/main.css">
+    <!--===============================================================================================-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" type="text/css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81222017-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-81222017-1');
+    </script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.js-example-basic-multiple').select2();
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+
+    <style type="text/css">
+        .multiselect-container {
+            width: 100% !important;
+        }
+    </style>
+    <style>
+        .box {
+            color: #fff;
+            padding: 20px;
+            display: none;
+            margin-top: 20px;
+        }
+
+        .1 {
+            background: #ff0000;
+        }
+
+        .2 {
+            background: #228B22;
+        }
+
+        .3 {
+            background: #0000ff;
+        }
+        .center {
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+              width: 50%;
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<div class="container-contact100">
+    <div class="wrap-contact100">
+        <a href="../index.html">
+            <button class="contact100-form-btn" style="width: 15%;padding: 5px;justify-content: middle;">
+					<span>
+						<i class="fa fa-long-arrow-left m-l-7" style=";" aria-hidden="true"></i>
+					</span>
+                <span>
+						Back
+					</span>
+            </button>
+        </a>
+        
+        <form class="contact100-form validate-form" id="regiForm" method="post" netlify="true">
+            <input type="hidden" name="_token" value="QXoZcdPLYf0EqZzAtHC7mf9IwZC1V0Lw153CpyM6">
+            <span class="contact100-form-title">
+                MRCET TECHFEST
+            </span>
+
+            
+            <span class="contact100-form-title">
+                Personal Details
+            </span>
+
+            <div class="wrap-input100 validate-input bg1">
+                <span class="label-input100">FullName *</span>
+                <input class="input100" type="text" id="fullName" name="fullName" placeholder="Enter Full Name" required>
+            </div>
+
+            <div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+                <span class="label-input100">Email Id *</span>
+                <input class="input100" type="text" id="eMail" name="eMailId" placeholder="Enter Email Id " required>
+            </div>
+
+            <div class="wrap-input100 bg1 rs1-wrap-input100">
+                <span class="label-input100">Contact Number *</span>
+                <input class="input100" type="tel" id="contactNumber" name="contactNumber" placeholder="Enter Contact number" required>
+            </div>
+            <span class="contact100-form-title">
+                Events
+            </span>
+            
+            <div class="wrap-input100 bg1 rs1-wrap-input100">
+                <span class="label-input100">Select Events</span>
+                <select class="js-example-basic-multiple events" name="events[]"  id="events" multiple="multiple" required>
+                    <optgroup label="CSE Events"></optgroup>
+                   <div class="1"><option value="abstract-50">Abstract Presentation-Rs.50/-</option></div>
+                   <div class="1 box"><option value="codemania-30">Code mania-Rs.30/-</option></div>
+                   <div class="1 box"><option value="domainquiz-30">Domain Quiz-Rs.30/-</option></div>
+                   <div class="1 box"><option value="poster-50">Poster Presentation-Rs.50/-</option></div>
+                   <div class="1 box"><option value="codinghunt-50">Coding Hunt-Rs.50/-</option></div>
+                    <div class="1 box"><option value="paper-80">Paper Presentation-Rs.80/-</option></div>
+
+                </select>
+            </div>
+            <div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+                 <span class="label-input100">Registration Fee </span>
+                     <input class="input100" type="number" name="registrationFee" id="registrationFee" required readonly>
+            </div>
+            <span class="contact100-form-title">
+
+                Payments
+            </span>
+          
+              
+          
+           <div class="wrap-input100 validate-input bg1">
+        
+        <h3><center>Paytm/Google pay/Phone pay:</center><br><b><center>7702662352</b></h3></center>
+        <h3><center>you can also pay by using </center><b><br><center>QR-link</center</b></b></h3>
+        <img src="qr.jpg" width="350" height="auto" class="center">
+             </div><hr>
+          <div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+                <span class="label-input100">Transaction Id*</span>
+                <input class="input100" type="text" id="transactionId" name="transactionId" placeholder="Enter Transaction Id " required>
+            </div>
+              <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn" onclick="writeData()">
+                        <span>
+                            Submit
+                            <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+</form>
+    </div>
+</div>
+
+
+
+<!--===============================================================================================-->
+<script src="../2019/exhi/form/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--=============/2019/exhi/form/==================================================================================-->
+<script src="../2019/exhi/form/vendor/animsition/js/animsition.min.js"></script>
+<!--=============/2019/exhi/form/==================================================================================-->
+<script src="../2019/exhi/form/vendor/bootstrap/js/popper.js"></script>
+<script src="../2019/exhi/form/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--=============/2019/exhi/form/==================================================================================-->
+<script src="../2019/exhi/form/vendor/select2/select2.min.js"></script>
+<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+
+
+			$(".js-select2").each(function(){
+				$(this).on('select2:close', function (e){
+					if($(this).val() == "Please chooses") {
+						$('.js-show-service').slideUp();
+					}
+					else {
+						$('.js-show-service').slideUp();
+						$('.js-show-service').slideDown();
+					}
+				});
+			});
+		})
+    </script>
+    
+<!--===============================================================================================-->
+<script src="../2019/exhi/form/vendor/daterangepicker/moment.min.js"></script>
+<script src="../2019/exhi/form/vendor/daterangepicker/daterangepicker.js"></script>
+<!--=============/2019/exhi/form/==================================================================================-->
+<script src="../2019/exhi/form/vendor/countdowntime/countdowntime.js"></script>
+<!--=============/2019/exhi/form/==================================================================================-->
+<script src="../2019/exhi/form/vendor/noui/nouislider.min.js"></script>
+<script>
+	    var filterBar = document.getElementById('filter-bar');
+
+	    noUiSlider.create(filterBar, {
+	        start: [ 1500, 3900 ],
+	        connect: true,
+	        range: {
+	            'min': 1500,
+	            'max': 7500
+	        }
+	    });
+
+	    var skipValues = [
+	    document.getElementById('value-lower'),
+	    document.getElementById('value-upper')
+	    ];
+
+	    filterBar.noUiSlider.on('update', function( values, handle ) {
+	        skipValues[handle].innerHTML = Math.round(values[handle]);
+	        $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
+	        $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
+	    });
+    </script>
+    <script>
+       $(document.body).on("change","#events",function(){
+            console.log($("#events").val());
+            let str  = $("#events").val();
+            var amount = 0;
+            str.forEach(function(data) {
+                console.log(data);
+                let splitStr = data.split("-");
+                console.log(splitStr[1]);
+                amount += parseInt(splitStr[1]);
+            });
+            console.log(amount);
+            $("#registrationFee").val(amount);
+        
+        });
+    </script>
+  
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<!--<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<!--<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDbdA_jDhIqhb72haP4YP7lBQo2SdaX2pc",
+    authDomain: "registrationform-a0ecb.firebaseapp.com",
+    databaseURL: "https://registrationform-a0ecb.firebaseio.com",
+    projectId: "registrationform-a0ecb",
+    storageBucket: "registrationform-a0ecb.appspot.com",
+    messagingSenderId: "584133492021",
+   
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  function writeData() {
+      firebase.database().ref("regiForm").set({
+         
+          fullname:document.getElementById("fullName").value,
+          email:document.getElementById("eMail").value,
+          contactnumber:document.getElementById("contactNumber").value,
+          events:document.getElementById("events").value,
+          registrationfee:document.getElementById("registrationFee").value,
+         transactionid:document.getElementById("transactionId").value
+      })
+  }
+</script>-->
+
+<!--===============================================================================================-->
+<script src="../2019/exhi/form/js/main.js"></script>
+<script src="regi.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+/
+</body>
+</html>
