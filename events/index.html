@@ -78,7 +78,70 @@
   font-size: 1.5vw;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.popup{
+    width: 900px;
+    margin: auto;
+    text-align: center
+}
+.popup img{
+    width: 500px;
+    height: auto;
+    cursor: pointer
+}
+.show{
+    z-index: 999;
+    display: none;
+}
+.show .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.66);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.show .img-show{
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden
+}
+.img-show span{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+    cursor: pointer;
+}
+.img-show img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 </style>
+<script>
+  $(function () {
+    "use strict";
+    
+    $(".popup img").click(function () {
+        var $src = $(this).attr("src");
+        $(".show").fadeIn();
+        $(".img-show img").attr("src", $src);
+    });
+    
+    $("span, .overlay").click(function () {
+        $(".show").fadeOut();
+    });
+    
+});
+</script>
 </head>
 <body>
 <div id="mobile">
@@ -87,18 +150,16 @@
           </div>
     <div id="navbar" class="ui inverted top stackable menu sidebar" style="background: #202731;margin-top:0px;margin-bottom:0px;">
       <div class="item" onclick="togglemenu()"><i class="arrow left icon"></i></div>
-      <a href="../index.html" class="item">
-        <img src="../static/images/">
-      </a>
+      
       </div>
     </div>
 </div>
 
 <div id="desktop">
     <div class="ui inverted fixed menu" style="background: #202731;margin-top:0px;margin-bottom:0px;padding-top:0px; padding-bottom:0px;">
-          <a href="#" class="item">
+          <div class="item">
             <img src="mrcet.jpeg">
-          </a>
+          </div>
           <div class="mrcet">
             MALLA REDDY COLLEGE OF ENGINEERING AND TECHNOLOGY&nbsp;(UGC-AUTONOMOUS,INDIA)
           </div>
@@ -130,7 +191,7 @@
             <div class="ui center aligned grid">
             <div class="row">
               <div class="poster"><br>
-                MAIN POSTER
+                MAIN POSTER<br><br><br>
               </div>
               
               </div>
@@ -138,8 +199,17 @@
             </div>
           </div>
           </div>
+          <div class="popup">
+            <img src="poster.png">
+          </div>
+          <div class="show">
+            <div class="overlay"></div>
+            <div class="img-show">
+              <span>X</span>
+            </div>
+          </div>
+          
           <div class="eventshead">
-            <img src="poster.png"><br><br>
             <br>EVENTS OF ESPIRITO 2020<br>
           </div>
           <br><br>
