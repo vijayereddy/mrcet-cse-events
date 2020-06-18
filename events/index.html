@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properties -->
-  <title>Events | CSE,MRCET</title>
+  <title>Events || CSE,MRCET</title>
     <!-- Site Properties -->
     <meta name="description" content="">
     <!-- Facebook open graph -->
@@ -60,9 +60,7 @@
 }
 .poster
 {
-  text-align: center;
-  font-size: 4vw;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  align-items: center;
 }
 .eventshead
 {
@@ -79,53 +77,15 @@
   font-size: 1.5vw;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.main {
+  font-size: 3vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 50px;
+}
+.poster-head {
+  margin-left: 40vw;
+}
 
-.popup{
-    width: 900px;
-    margin: auto;
-    text-align: center
-}
-.popup img{
-    width: 500px;
-    height: auto;
-    cursor: pointer
-}
-.show{
-    z-index: 999;
-    display: none;
-}
-.show .overlay{
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.66);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.show .img-show{
-    width: 600px;
-    height: 400px;
-    background: #FFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    overflow: hidden
-}
-.img-show span{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 99;
-    cursor: pointer;
-}
-.img-show img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 </style>
 <script>
   $(function () {
@@ -169,47 +129,14 @@
           <!-- a href="/register/" class="right floated item">Register</a -->
      </div>
 </div>
-  
-<div id="container">
-    <div class="pusher" >
-      <div class="ui container" style="padding-top: 10px;">
-      
-          <div class="ui grid">
-          <div class="row">
-            <div class="four wide column">
-              
-            </div>
-            <div class="twelve wide column">
-                    <div class="ui fluid search">
-                       <div class="ui icon input" style="width: 100%;">
-                            </div>
-                      <div class="results"></div>
-                    </div>
-            </div>
-          </div>
-          <div class="centered row">
-            <div class="ui container">
-            <div class="ui center aligned grid">
-            <div class="row">
-              <div class="poster"><br>
-                MAIN POSTER<br><br><br>
-              </div>
-              
-              </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div class="popup">
-            <img src="poster.png">
-          </div>
-          <div class="show">
-            <div class="overlay"></div>
-            <div class="img-show">
-              <span>X</span>
-            </div>
-          </div>
-          
+<br><br><br><br><br><br>
+<div class="poster-head">
+  <h1>MAIN POSTER</h1>
+</div>
+
+        <div class="image">
+          <marquee behavior="slide" scrollamount="15" direction="left"><img  src="poster.png" alt="poster" height="300vw" width="auto"></marquee>
+        </div>
           <div class="eventshead">
             <br>EVENTS OF ESPIRITO 2020<br>
           </div>
